@@ -1,0 +1,97 @@
+/* Overall Body Styling */
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+
+.nunito-<uniquifier > {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(
+    135deg,
+    #6e7fef,
+    #2a3f94
+  ); /* Smooth gradient background */
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Main Container */
+div {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7); /* Dark background for contrast */
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+}
+
+/* Heading Styles */
+h1 {
+  font-size: 3rem;
+  color: #fbc02d; /* Bright yellow color for the header */
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Subheading Styles */
+h2 {
+  font-size: 2rem;
+  color: #4caf50; /* Green color for the success message */
+  margin-top: 10px;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Button Styles */
+button {
+  background: linear-gradient(145deg, #ff6f61, #ff9e7b); /* Gradient button */
+  color: white;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Certificate Box Styling */
+.cert-box {
+  margin-top: 20px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1); /* Light transparent box */
+  border-radius: 10px;
+  border: 2px solid #fbc02d;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Text inside certificate box */
+.cert-box p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* Small Info Text */
+p {
+  font-size: 1rem;
+  color: #e0e0e0;
+}
