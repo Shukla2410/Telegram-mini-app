@@ -4,8 +4,8 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(
     135deg,
-    6e7fef,
-    2a3f94
+    #6e7fef,
+    #2a3f94
   ); /* Smooth gradient background */
   color: #fff;
   display: flex;
